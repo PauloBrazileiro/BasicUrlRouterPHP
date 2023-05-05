@@ -1,0 +1,22 @@
+{
+    "name": "paulo.luiz/cursomvc",
+    "description": "Servidor DGS PHP",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\":"core/"
+        },
+        "files":[
+             "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Paulo Silas Brazileiro Luiz"
+        }
+    ],
+    "require": {
+        "php":">=7.2"
+    }
+    
+}
